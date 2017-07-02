@@ -74,3 +74,4 @@ git remote -v
 git remote add upstream git@github.com:YerzhanBetov/***.git
 git remote -v
 git pull upstream develop
+git branch -a
