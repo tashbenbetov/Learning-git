@@ -91,3 +91,18 @@ git tag 1.1 => create new tag (usually for release branches)
 git tag -d 1.1 => delete just that tag
 git checkout -b 1.1 => new branch from that tag
 git push origin --tags => push local tags to remote server
+
+_____________________________________________________________
+
+Config local git:
+// .git/config => manually change data
+git config user.name 'FirstName LastName' => set First and Last names
+git config user.email 'mail@gmail.com' => set email
+git config core.editor Sublime Text => set default app
+git config alias.st status => create alias (shorter: s = status --short)
+git config alias.br branch
+git config alias.co checkout
+git config alias.ci commit (shorter: c commit -am)
+git config alias.p push
+_____________________________________________________________
+
