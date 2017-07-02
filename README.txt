@@ -85,3 +85,4 @@ git push --delete origin feature-READS-300
 _____________________________________________________________
 
 set upstream branch ( -u === -set-upstream )
+git tag 1.1
