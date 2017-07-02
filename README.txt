@@ -75,3 +75,11 @@ git remote add upstream git@github.com:YerzhanBetov/***.git
 git remote -v
 git pull upstream develop
 git branch -a
+
+git checkout master
+git pull
+git branch -d feature-READS-300
+git push --delete origin feature-READS-300
+
+_____________________________________________________________
+
