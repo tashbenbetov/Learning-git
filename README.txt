@@ -67,3 +67,10 @@ Example:
     5. git add .
     6. git commit -m 'Commit name'
     7. git push
+
+_____________________________________________________________
+
+git remote -v
+git remote add upstream git@github.com:YerzhanBetov/***.git
+git remote -v
+git pull upstream develop
