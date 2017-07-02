@@ -17,7 +17,7 @@ git diff => show difference between commits, commit and working directory
 git clone => option for clone whole repository
 git config --global color.ui auto => different color for data
 git checkout => switch between branches or restore working tree files
-git checkout -b {NEW_BRANCH_NAME} - create new branch from current commits
+git checkout -b {NEW_BRANCH_NAME} - create new branch from current commits and checkout it
 _____________________________________________________________
 
 Committing me softly:
@@ -31,6 +31,7 @@ _____________________________________________________________
 Branches and etc.:
 git branch => show all current branches, create or delete
 git branch -a => show all branches, even not synced yet
+git branch -b => just create new branch (without checkout command)
 git branch -d {BRANCH_NAME} => delete branch (after successful merge)
 git branch -D {BRANCH_NAME} => delete dead-end branch
 git merge {NAME_1} {NAME_2} => Join two branches in one (all development history together), {NAME_1} into {NAME_2}
