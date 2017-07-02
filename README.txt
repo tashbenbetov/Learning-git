@@ -71,6 +71,7 @@ Example:
 
 _____________________________________________________________
 
+Example #2:
 git remote -v
 git remote add upstream git@github.com:YerzhanBetov/***.git
 git remote -v
@@ -84,5 +85,9 @@ git push --delete origin feature-READS-300
 
 _____________________________________________________________
 
+About tags:
 set upstream branch ( -u === -set-upstream )
-git tag 1.1
+git tag 1.1 => create new tag (usually for release branches)
+git tag -d 1.1 => delete just that tag
+git checkout -b 1.1 => new branch from that tag
+git push origin --tags => push local tags to remote server
